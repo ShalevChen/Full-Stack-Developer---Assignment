@@ -62,6 +62,3 @@ This backend service is built using Node.js and Express to collect and store Zer
 - **Response**: 
   - Status: `200` (OK) and returns an array of stored data.
 
-## License
-
-This project is licensed under the MIT License.
