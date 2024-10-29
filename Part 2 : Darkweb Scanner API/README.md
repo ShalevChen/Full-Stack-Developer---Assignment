@@ -1,11 +1,10 @@
 # Darkweb Scanner API
 
-This API queries dark web data related to a specified domain using IntelX.
+This API queries dark web data related to a specified domain using native command-line tools.
 
 ## Requirements
 
 - Node.js
-- IntelX API Key
 
 ## Installation Steps
 
@@ -34,14 +33,7 @@ This API queries dark web data related to a specified domain using IntelX.
    - Run the following command to initialize a new Node.js project and install the necessary dependencies:
      ```bash
      npm init -y
-     npm install express axios body-parser
-     ```
-
-5. **Set Up IntelX API Key**:
-   - Sign up or log in to IntelX to obtain your API key.
-   - Open `darkwebScannerAPI.js` and replace `YOUR_INTELX_API_KEY` with your actual API key:
-     ```javascript
-     const INTELX_API_KEY = 'YOUR_INTELX_API_KEY'; // Replace with your IntelX API key
+     npm install express
      ```
 
 ## Running the API
@@ -49,11 +41,11 @@ This API queries dark web data related to a specified domain using IntelX.
 1. **Start the Server**:
    - In the terminal, ensure you are in the `part2-darkweb-scanner` directory and run:
      ```bash
-     node darkwebScannerAPI.js
+     node server.js
      ```
    - You should see the message indicating that the server is running:
      ```
-     Server is running on http://localhost:3000
+     Darkweb Scanner API running on port 3000
      ```
 
 ## Usage
@@ -83,3 +75,4 @@ You can use **Postman** to test the API:
    }
    ```
 6. Send the request and observe the response for dark web data related to the specified domain.
+
