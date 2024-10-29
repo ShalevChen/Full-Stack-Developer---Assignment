@@ -89,4 +89,4 @@ This Vue.js component displays a company's Zero-Trust Score based on provided me
 
 ## Screenshot of the Widget
 
-![Zero-Trust Score Widget Screenshot](path/to/screenshot.png)
+![Screenshot of the widget in action](screenshot%20of%20the%20widget%20in%20action.png)
