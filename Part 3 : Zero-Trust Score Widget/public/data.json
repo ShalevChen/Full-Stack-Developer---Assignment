@@ -1,0 +1,22 @@
+{
+  "companyName": "FinTechSecure Ltd.",
+  "ZeroTrustScore": 58.5,
+  "metrics": {
+    "averageShannonEntropyScore": 78,
+    "firewallDetected": true,
+    "DNSsecEnabled": true,
+    "tlsVersion": "1.2",
+    "certificateBitStrength": 2048,
+    "openPortsDetected": 12
+  },
+  "observableData": {
+    "averageShannonEntropyScore": 78,
+    "firewallDetected": true,
+    "DNSsecEnabled": true,
+    "tlsVersion": "1.2",
+    "certificateBitStrength": 2048,
+    "securityHeadersImplemented": ["X-XSS-Protection", "X-Frame-Options"],
+    "openPortsDetected": 12
+  },
+  "riskCategory": "Moderate Risk"
+}
