@@ -38,7 +38,7 @@ This Vue.js component displays a company's Zero-Trust Score based on provided me
      ```
 
 5. **Add the Widget Component**:
-   - Inside the `src/components` directory, create a new file named `ZeroTrustWidget.vue` and paste the component code provided above.
+   - Inside the `src/components` directory, create a new file named `ZeroTrustWidget.vue` and paste the component code provided.
 
 6. **Integrate the Widget**:
    - Open `src/App.vue` and include the `ZeroTrustWidget` component:
@@ -68,7 +68,7 @@ This Vue.js component displays a company's Zero-Trust Score based on provided me
              "averageShannonEntropyScore": 7.8,
              "firewallDetected": 100,
              "DNSsecEnabled": 100,
-             "tlsVersion": 1.2,
+             "tlsVersion": "1.2",
              "certificateBitStrength": 2048,
              "openPortsDetected": 12
            }
@@ -90,4 +90,3 @@ This Vue.js component displays a company's Zero-Trust Score based on provided me
 ## Screenshot of the Widget
 
 ![Zero-Trust Score Widget Screenshot](path/to/screenshot.png)
-
